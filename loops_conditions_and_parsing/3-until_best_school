@@ -1,4 +1,5 @@
 #!/bin/bash
+#Bash script that displays
  count=10
 	until [$count -eq 10]; do
 		echo "Best School"
