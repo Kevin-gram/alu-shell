@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#Bash script that displays
-count=10
-	until [ $count -eq 10 ] 
+#until loops excute if the statment tuns false"
+count=0
+until [ $count -eq 10 ]
 do
-		echo "Best School"
-		count =(($ count + 1))
+	echo "Best School"
+	count=$((count+1))
 done
