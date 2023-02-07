@@ -1,14 +1,15 @@
 #!/usr/bin/env bash                                                                                         
-# Initialize the hours and minutes variables
-hour=0
-while [ $hour -lt 12 ]
+# Initialize the hours and minutes variables                                                                 
+hour=0                                                                                                       
+minute=1
+echo "Hours : $hour"
+while [ $hour -lt 13 ]
 do
-minute=0	  
+	echo "$hour"
+	hour=$(( $hour + 1))
+done
 while [ $minute -lt 60 ]
 do
-	echo "Hour: $hour"
-	echo $minut
-	((minute++))
- done
-     ((hour++))
+	echo "$minute"
+	minute=$(( $minute + 1))
 done
