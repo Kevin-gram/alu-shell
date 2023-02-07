@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/bin/bash
 
 
@@ -27,3 +28,20 @@ do
 				      done
 
 
+=======
+#!/usr/bin/env bash                                                                                         
+# Initialize the hours and minutes variables                                                                 
+hour=0                                                                                                       
+minute=1
+echo "Hours : $hour"
+while [ $hour -lt 13 ]
+do
+	echo "$hour"
+	hour=$(( $hour + 1))
+done
+while [ $minute -lt 60 ]
+do
+	echo "$minute"
+	minute=$(( $minute + 1))
+done
+>>>>>>> 3942571082c93e6f579a822574359fa6b3230762
