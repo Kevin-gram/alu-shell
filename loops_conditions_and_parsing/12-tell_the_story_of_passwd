@@ -1,3 +1,10 @@
 #!/bin/bash
-# Use awk to extract the visitor IP and HTTP status code from the Apache log file
-awk '{print $1 " " $9}' apache-access.log
+# The file path
+file_path="/etc/passwd"
+# IFS (Internal Field Separator) is set to :
+IFS=:
+# While loop to read the file line by line
+while read -r username password userid groupid gecos homedir shell; do
+	  echo "The user $username is part of the $groupid gang, lives in $homedir and rides $shell."
+	    echo "$userid's place is protected by the passcode $password, more info about the user here: $gecos"
+    done < "$file_path"
