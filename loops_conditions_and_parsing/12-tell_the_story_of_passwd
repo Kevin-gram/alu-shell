@@ -3,6 +3,4 @@
 while read -r READ
 do
 	echo "$READ"
-done username:password:UID:GID:GECOS:homedir:shell
-
-
+done </etc/passwd
