@@ -1,15 +1,8 @@
 #!/usr/bin/env bash
 # script that displays the content of the file /etc/passwd, u
 #!/bin/bash
-
-
-
 # The file path
-
 file_path="/etc/passwd"
-
-
-
 # IFS (Internal Field Separator) is set to :
 IFS=""
 # While loop to read the file line by line
